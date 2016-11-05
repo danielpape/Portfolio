@@ -1,0 +1,26 @@
+p {
+  margin-bottom: 0px;
+}
+
+.appBox {
+  padding: 16px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.highlighted {
+  background-color: #f5f5f5;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .notHighlighted {
+    display: none;
+  }
+}

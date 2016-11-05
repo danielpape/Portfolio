@@ -1,0 +1,44 @@
+body{
+  font-family: $roboto;
+}
+.topborder {
+    border-color: #212121;
+    border-style: solid;
+    border-width: 4px 0 0;
+}
+
+.topBottomMargins {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.colourBack {
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-color: #00897B;
+    color: #B2DFDB;
+}
+
+.colourBack h1 {
+    color: #fff;
+}
+
+.topMargin{
+  margin-top: 2rem;
+}
+
+.topMarginSmall{
+  margin-top: 1rem;
+}
+
+.lightColourBack {
+  background-color: $light-site-color;
+}
+
+.bottomMarginMedium {
+  margin-bottom: 2rem;
+}
+
+.width100{
+  width: 100%;
+}

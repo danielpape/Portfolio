@@ -1,0 +1,37 @@
+#success_message {
+    display: none;
+}
+
+.form-group{
+  margin-bottom:0px;
+}
+
+.inputGroupContainer{
+  margin-bottom: 16px;
+}
+
+.formStyle {
+    color: #fff;
+    width: 100%;
+    border-color: #fff;
+    border-width: 2px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #00897B;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+#formStyle ::-webkit-input-placeholder {
+    color: #B2DFDB;
+}
+#formStyle :-moz-placeholder {
+    color: #B2DFDB;
+}
+#formStyle ::-moz-placeholder {
+    color: #B2DFDB;
+}
+#formStyle :-ms-input-placeholder {
+    color: #B2DFDB;
+}
