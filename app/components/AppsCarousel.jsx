@@ -16,23 +16,26 @@ var AppsCarousel = React.createClass({
         selectedApp : newSelectedApp
       });
       console.log('selected app is'+this.state.selectedApp);
-    },3000);
+    },5000);
   },
   componentDidMount: function(){
     this.scrollThroughApps();
 },
   componentWillUnmount: function(){
     clearInterval(this.timer);
-    },
+},
   render: function(){
     var selectedApp = this.state.selectedApp;
 
     if (selectedApp == 0){
-      var appBoxClassArray = ['highlighted','notHighlighted','notHighlighted']
+      var appBoxClassArray = ['highlighted','notHighlighted','notHighlighted'];
+      var displayClassArray = ['displayImage','hideImage','hideImage'];
     }else if (selectedApp == 1) {
-      var appBoxClassArray = ['notHighlighted','highlighted','notHighlighted']
+      var appBoxClassArray = ['notHighlighted','highlighted','notHighlighted'];
+      var displayClassArray = ['hideImage','displayImage','hideImage'];
     }else if (selectedApp == 2) {
-      var appBoxClassArray = ['notHighlighted','notHighlighted','highlighted']
+      var appBoxClassArray = ['notHighlighted','notHighlighted','highlighted'];
+      var displayClassArray = ['hideImage','hideImage','displayImage'];
     }
 
       return(
@@ -53,7 +56,9 @@ var AppsCarousel = React.createClass({
             </div>
           </div>
           <div className="col-sm-6 topMargin">
-              <img src={require("../img/eveAlarm.png")}/>
+            <img src={require('../images/eveAlarm.png')} className={displayClassArray[0]}/>
+            <img src={require('../images/progress1000.png')} className={displayClassArray[1]}/>
+            <img src={require('../images/mapgrounds.png')} className={displayClassArray[2]}/>
           </div>
         </div>
       );

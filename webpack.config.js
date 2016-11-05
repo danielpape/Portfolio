@@ -45,12 +45,9 @@ module.exports = {
         exclude: /(node_modules|bower_components)/
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-          'file?hash=sha512&digest=hex&name=[hash].[ext]',
-          'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
-        ]
-      }
+        test: /\.(png|jpg|jpeg|gif|woff)$/,
+        loader: 'url-loader'
+      },
     ]
   },
   devtool: 'inline-source-map'

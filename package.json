@@ -15,7 +15,8 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0",
-    "react-scroll": "^1.4.4"
+    "react-scroll": "^1.4.4",
+    "url-loader": "^0.5.7"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
