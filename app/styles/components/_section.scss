@@ -1,6 +1,7 @@
-body{
-  font-family: $roboto;
+body {
+    font-family: $roboto;
 }
+
 .topborder {
     border-color: #212121;
     border-style: solid;
@@ -23,22 +24,28 @@ body{
     color: #fff;
 }
 
-.topMargin{
-  margin-top: 2rem;
+.topMargin {
+    margin-top: 2rem;
 }
 
-.topMarginSmall{
-  margin-top: 1rem;
+.topMarginSmall {
+    margin-top: 1rem;
 }
 
 .lightColourBack {
-  background-color: $light-site-color;
+    background-color: $light-site-color;
 }
 
 .bottomMarginMedium {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
-.width100{
-  width: 100%;
+.width100 {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .fullWidthMobile {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
