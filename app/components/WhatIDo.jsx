@@ -14,17 +14,17 @@ var WhatIDo = () => {
                     </div>
                   </div>
                     <div className="col-sm-4">
-                        <img src="img/GraphicDesign.png" className="center-block"/>
+                        <img src={require('../images/GraphicDesign.png')} className="center-block"/>
                         <h2>Graphic Design</h2>
                         <p>I have many years experience designing engaging graphics, focused around creating a recognisable visual language for brands that is communicated through logo design and promotional materials. </p>
                     </div>
                     <div className="col-sm-4">
-                        <img src="img/UIDesign.png" className="center-block"/>
+                        <img src={require('../images/UIDesign.png')} className="center-block"/>
                         <h2>UI Design</h2>
                         <p>I adopt a user-led approach to create engaging, simplified designs that streamline user interactions focused around meeting business goals. </p>
                     </div>
                     <div className="col-sm-4">
-                        <img src="img/develop.png" className="center-block"/>
+                        <img src={require('../images/develop.png')} className="center-block"/>
                         <h2>Development</h2>
                         <p>I have developed products from idea to release on iOS, Android &amp; the web using native technologies. I am comfortable writing code in swift, objective-C, javascript &amp; java.</p>
                     </div>
