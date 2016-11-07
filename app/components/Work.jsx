@@ -13,7 +13,7 @@ var Work = React.createClass({
   render:function(){
     return(
 
-    <section className="topBottomMargins" id="work">
+    <section className="noBottomMargin" id="work">
         <div className="container-fluid">
             <div className="row">
                 <div className="col-sm-12">

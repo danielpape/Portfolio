@@ -37,7 +37,7 @@ var AppsCarousel = React.createClass({
 
         return (
             <div>
-            <div className="col-sm-6 topMargin">
+            <div className="col-sm-6 noBottomMargin">
                 <div id="eveAlarmBox" className={appBoxClassArray[0] + ' appBox'}>
                     <h2>Eve Alarm</h2>
                     <p>Eve Alarm is an alarm app that uses a custom clickwheel control to interact with the sunset-based user-interface. It was featured in the US &amp; UK app stores for over 6 months.</p>
@@ -63,9 +63,9 @@ var AppsCarousel = React.createClass({
                 </div>
             </div>
             <div className="col-sm-6 topMargin">
-                <img src={require('../images/eveAlarm.png')} className={displayClassArray[0]}/>
-                <img src={require('../images/progress1000.png')} className={displayClassArray[1]}/>
-                <img src={require('../images/mapgrounds.png')} className={displayClassArray[2]}/>
+                <img src={require('../images/iphone-eve.png')} className={displayClassArray[0]}/>
+                <img src={require('../images/iphone-progress1000.png')} className={displayClassArray[1]}/>
+                <img src={require('../images/iphone-mapgrounds.png')} className={displayClassArray[2]}/>
             </div>
 
         </div>
