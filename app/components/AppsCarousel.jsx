@@ -52,13 +52,13 @@ var AppsCarousel = React.createClass({
                 </div>
                 <div className="bobbles">
                     <span className={bobbleClassArray[0]}>
-                        1
+                        &#9679;
                     </span>
                     <span className={bobbleClassArray[1]}>
-                        2
+                        &#9679;
                     </span>
                     <span className={bobbleClassArray[2]}>
-                        3
+                        &#9679;
                     </span>
                 </div>
             </div>
