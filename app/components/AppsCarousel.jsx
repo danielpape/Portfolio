@@ -35,20 +35,24 @@ var AppsCarousel = React.createClass({
             var displayClassArray = ['hideImage', 'hideImage', 'displayImage'];
         }
 
+        var eveDescription = "Eve is an alarm app for iPhone that uses a sunrise-based interface to remind you when you go to bed. The interface is custom written and the app uses local notifications to trigger the alarm and reminder.";
+        var progress1000Descripton = "The Evening Standard Progress 1000 is an annual event that celebrates the most influential people in London. I built a responsive iPhone & iPad platform to present all 1000 entries with offline caching.";
+        var MapgroundDescription = "Mapgrounds is an app for iPhone that creates beautiful wallpapers for your phone. It uses embedded Apple Maps and allows the user to buy new themes through in-app purchases";
+
         return (
             <div>
             <div className="col-sm-6 noBottomMargin">
                 <div id="eveAlarmBox" className={appBoxClassArray[0] + ' appBox'}>
                     <h2>Eve Alarm</h2>
-                    <p>Eve Alarm is an alarm app that uses a custom clickwheel control to interact with the sunset-based user-interface. It was featured in the US &amp; UK app stores for over 6 months.</p>
+                    <p>{eveDescription}</p>
                 </div>
                 <div id="progress1000Box" className={appBoxClassArray[1] + ' appBox'}>
                     <h2>Progress 1000</h2>
-                    <p>The Progress 1000 by London Evening Standard is an annual event featuring the 1000 most influential people in London. I created a platform for the app from scratch which is responsive to all sizes of iPhone &amp; iPad, and automatically lays out section pages and paginated profile pages with offline image caching.</p>
+                    <p>{progress1000Descripton}</p>
                 </div>
                 <div id="mapgroundsBox" className={appBoxClassArray[2] + ' appBox'}>
                     <h2>Mapgrounds</h2>
-                    <p>Mapgrounds is an app that created beautiful wallpapers for your iPhone, with social sharing and in-app purchases to add new styles.</p>
+                    <p>{MapgroundDescription}</p>
                 </div>
                 <div className="bobbles">
                     <span className={bobbleClassArray[0]}>
