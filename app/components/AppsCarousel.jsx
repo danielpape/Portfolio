@@ -43,15 +43,15 @@ var AppsCarousel = React.createClass({
             <div>
             <div className="col-sm-6 noBottomMargin">
                 <div id="eveAlarmBox" className={appBoxClassArray[0] + ' appBox'}>
-                    <h2>Eve Alarm</h2>
+                    <h2>Eve Alarm</h2> <a href="" className="download">Download</a>
                     <p>{eveDescription}</p>
                 </div>
                 <div id="progress1000Box" className={appBoxClassArray[1] + ' appBox'}>
-                    <h2>Progress 1000</h2>
+                    <h2>Progress 1000</h2> <a href="" className="download">Download</a>
                     <p>{progress1000Descripton}</p>
                 </div>
                 <div id="mapgroundsBox" className={appBoxClassArray[2] + ' appBox'}>
-                    <h2>Mapgrounds</h2>
+                    <h2>Mapgrounds</h2> <a href="" className="download">Download</a>
                     <p>{MapgroundDescription}</p>
                 </div>
                 <div className="bobbles">
