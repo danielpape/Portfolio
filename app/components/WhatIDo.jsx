@@ -4,7 +4,7 @@ var Element = Scroll.Element;
 
 var WhatIDo = () => {
   return(
-    <section className="topBottomMargins lightColourBack element" name="whatIdo">
+    <section className="topBottomMargins lightColourBack element" id="whatIdo">
         <div className="container-fluid">
             <div className="row">
                 <div className="col-sm-12">
