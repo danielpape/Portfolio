@@ -11,8 +11,7 @@ var Jumbotron = React.createClass({
                     <Marque/>
                     <div className="col-sm-12 topborder"></div>
                     <div className="col-sm-6">
-                        <h1>Hi, I'm
-                            <strong>Daniel Pape</strong>.</h1>
+                        <h1>Hi, I'm <strong>Daniel Pape</strong>.</h1>
                         <h2>I'm a product designer and front end developer who creates engaging iOS apps based in London, England</h2>
                     </div>
                     <div className="col-sm-6 links">
