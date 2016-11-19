@@ -16,17 +16,17 @@ var WhatIDo = () => {
                     <div className="col-sm-4">
                         <img src={require('../images/GraphicDesign.png')} className="center-block"/>
                         <h2>Graphic Design</h2>
-                        <p>I have many years experience designing engaging graphics, focused around creating a recognisable visual language for brands that is communicated through logo design and promotional materials. </p>
+                        <p>I have many years experience designing engaging graphics, focused around creating a recognisable visual language for brands that is communicated through different mediums. </p>
                     </div>
                     <div className="col-sm-4">
                         <img src={require('../images/UIDesign.png')} className="center-block"/>
                         <h2>UI Design</h2>
-                        <p>I adopt a user-led approach to create engaging, simplified designs that streamline user interactions focused around meeting business goals. </p>
+                        <p>I design user journeys for humans, focused around creating the best experience for users while meeting business objectives. </p>
                     </div>
                     <div className="col-sm-4">
                         <img src={require('../images/develop.png')} className="center-block"/>
                         <h2>Development</h2>
-                        <p>I have developed products from idea to release on iOS, Android &amp; the web using native technologies. I am comfortable writing code in swift, objective-C, javascript &amp; java.</p>
+                        <p>I develop products from idea to release on iOS &amp; the web using native technologies. I am confident writing code in swift, objective-C &amp; javascript, and I'm currently learning React development. In fact this website is written in React!</p>
                     </div>
                 </div>
         </div>

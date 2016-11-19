@@ -67,9 +67,9 @@ var AppsCarousel = React.createClass({
                 </div>
             </div>
             <div className="col-sm-6 topMargin">
-                <img src={require('../images/iphone-eve.png')} className={displayClassArray[0]}/>
-                <img src={require('../images/iphone-progress1000.png')} className={displayClassArray[1]}/>
-                <img src={require('../images/iphone-mapgrounds.png')} className={displayClassArray[2]}/>
+                <img src={require('../images/Eve-iPhone.png')} className={displayClassArray[0]}/>
+                <img src={require('../images/Progress-iPhone.png')} className={displayClassArray[1]}/>
+                <img src={require('../images/Mapgrounds-iPhone.png')} className={displayClassArray[2]}/>
             </div>
 
         </div>
