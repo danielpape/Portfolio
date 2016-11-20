@@ -1,4 +1,5 @@
 var React = require('react');
+var Navigation = require('Navigation');
 var Jumbotron = require('Jumbotron');
 var Work = require('Work');
 var WhatIDo = require('WhatIDo');
@@ -8,6 +9,7 @@ var Footer = require('Footer');
 var Main = (props) => {
   return(
     <div>
+      <Navigation/>
       <Jumbotron/>
       <Work/>
       <WhatIDo/>

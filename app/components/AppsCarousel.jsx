@@ -9,7 +9,6 @@ var AppsCarousel = React.createClass({
         this.timer = setInterval(() => {
             var newSelectedApp = (this.state.selectedApp + 1) % 3;
             this.setState({selectedApp: newSelectedApp});
-            console.log('selected app is' + this.state.selectedApp);
         }, 5000);
     },
     componentDidMount: function() {

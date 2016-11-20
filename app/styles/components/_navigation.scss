@@ -1,18 +1,16 @@
-.top-bar, .top-bar ul {
-  background-color: $nav-background;
+Navbar {
+    background-color: white;
 }
 
-.top-bar{
-  .menu-text{
-    color: $nav-text-color;
-  }
+nav.navbar.navbar-default.navbar-fixed-top {
+  border-bottom: 0px;
+  background-color: white;
+}
 
-  .menu > .menu-text > a {
-    display: inline;
-    padding: 0;
-  }
+button.navbar-toggle.collapsed {
+  border: 0px;
+}
 
-  .active-link {
-    font-size: bold;
-  }
+a.navbar-brand {
+
 }

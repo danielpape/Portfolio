@@ -24,6 +24,7 @@ module.exports = {
     alias: {
       Main: 'app/components/Main.jsx',
       applicationStyles: 'app/styles/app.scss',
+      Navigation : 'app/components/Navigation.jsx',
       Jumbotron : 'app/components/Jumbotron.jsx',
       Marque : 'app/components/Marque.jsx',
       Work : 'app/components/Work.jsx',

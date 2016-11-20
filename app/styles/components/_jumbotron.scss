@@ -1,27 +1,14 @@
 .jumbotron {
     margin-bottom: 0px;
-    background-color: $site-color;
-    color: #B2DFDB;
-    padding-top: 0px;
+    background-color: #f3f3f3;
+    color: #777777;
+    padding-top: 50px;
     padding-bottom: 0px;
 }
 .jumbotron strong {
-    color: #fff;
+    color: #777777;
 }
-.jumbotron h1 {
-    font-size: 2em;
-    font-weight: 300;
-}
-.jumbotron h3 {
-    font-size: 2em;
-}
-.jumbotron h2 {
-    font-size: 1.5em;
-    color: #fff;
-    line-height: 130%;
-    font-weight: 300;
-    margin-top: 8px;
-}
+
 .jumbotron p {
     font-size: 1em;
     margin-bottom: 0.2em;
@@ -30,8 +17,21 @@
 .jumbotron a {
     color: #B2DFDB;
 }
-.jumbotron h3 {
-    color: #ffffff;
+
+.card{
+  background-color: white;
+  padding: 16px;
+  color: #333;
+
+  h1{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: normal;
+  }
 }
 
 .logo {

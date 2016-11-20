@@ -2,7 +2,7 @@ var React = require('react');
 var Marque = () => {
     return (
         <div className="logo">
-            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="10em" height="10em" viewBox="0 0 414.000000 446.000000" preserveAspectRatio="xMidYMid meet">
+            <svg className="marque" version="1.0" xmlns="http://www.w3.org/2000/svg" width="36px" height="36px" viewBox="0 0 414.000000 446.000000" preserveAspectRatio="xMidYMid meet">
                 <g transform="translate(0.000000,446.000000) scale(0.100000,-0.100000)" fill="#212121" stroke="none">
                     <path d="M627 4398 c-93 -89 -529 -512 -572 -555 -24 -23 -41 -44 -38 -47 2
                 -2 4 -855 4 -1894 l0 -1890 1032 2 c568 1 1047 5 1065 8 18 4 52 10 75 13 385
