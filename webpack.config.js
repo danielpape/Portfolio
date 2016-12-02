@@ -33,7 +33,8 @@ module.exports = {
       Footer : 'app/components/Footer.jsx',
       AppsCarousel : 'app/components/AppsCarousel.jsx',
       Home: 'app/components/Home.jsx',
-      Eve: 'app/components/Eve.jsx'
+      Eve: 'app/components/Eve.jsx',
+      Appheader: 'app/components/Appheader.jsx'
     },
     extensions: ['','.js','.jsx']
   },

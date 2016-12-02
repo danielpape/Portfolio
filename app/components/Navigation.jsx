@@ -10,33 +10,21 @@ var Navigation = React.createClass({
     },
     render: function() {
         return (
-            <Navbar collapseOnSelect fixedTop>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="/">Daniel Pape</a>
-                    </Navbar.Brand>
-                    <Navbar.Toggle/>
-                </Navbar.Header>
-                <Navbar.Collapse>
-                    <Nav>
-                        <LinkContainer to="/contact">
-                            <NavItem eventKey={1}>Contact</NavItem>
-                        </LinkContainer>
-                        <LinkContainer to="/work">
-                            <NavItem eventKey={2}>Work</NavItem>
-                        </LinkContainer>
-                        <NavDropdown eventKey={3} title="Work" id="basic-nav-dropdown">
-                          <LinkContainer to="/eve-alarm">
-                              <MenuItem eventKey={2}>Eve</MenuItem>
-                          </LinkContainer>
-                            <MenuItem eventKey={3.2}>Another action</MenuItem>
-                            <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                            <MenuItem divider/>
-                            <MenuItem eventKey={3.3}>Separated link</MenuItem>
-                        </NavDropdown>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+          <div className="header container">
+            <div className="col-sm-6 links">
+              <Marque/>
+            </div>
+            <div className="col-sm-3 links">
+               <p className="truncate"><strong>Email:</strong> <a href={'https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8#'}>danielwpape@gmail.com</a></p>
+               <p className="truncate"><strong>Twitter</strong> <a href={'https://twitter.com/danielpape'}>@danielpape</a></p>
+                <p className="truncate"><strong>GitHub</strong> <a href={'https://github.com/danielpape'}>/danielpape</a></p>
+            </div>
+            <div className="col-sm-3 links">
+              <p><strong>Products:</strong> <a href={'https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8#'}>Eve Alarm</a></p>
+              <p><strong>&nbsp;</strong> <a href={'https://twitter.com/danielpape'}>Independent</a></p>
+              <p><strong>&nbsp;</strong> <a href={'https://github.com/danielpape'}>Alta</a></p>
+            </div>
+        </div>
         );
     }
 });

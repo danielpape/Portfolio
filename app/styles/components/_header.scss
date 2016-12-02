@@ -1,0 +1,24 @@
+.headerName {
+  display: inline;
+  margin-left: 8px;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+strong {
+  float:left;
+  width: 72px;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.white{
+  color:white;
+}
