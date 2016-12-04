@@ -1,6 +1,7 @@
 body {
-    font-family: $roboto;
+    font-family: $Cabin;
     -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.4px;
 }
 
 .topborder {
@@ -68,4 +69,8 @@ body {
     .tablet {
       display: inherit;
     }
+}
+
+.at {
+  font-family: $roboto;
 }
