@@ -11,13 +11,13 @@ var Home = require('Home');
 require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
-  <Router history={hashHistory}>
+    <Router history={hashHistory}>
     <Route path="/" component={Main}>
-      <Route path="work" component={Work}/>
-      <Route path="contact" component={Contact}/>
-      <Route path="eve-alarm" component={Eve}/>
-      <IndexRoute component={Home}/>
+        <Route path="work" component={Work}/>
+        <Route path="contact" component={Contact}/>
+        <Route path="eve" component={Eve}/>
+        <Route path="independent" component={Eve}/>
+        <Route path="alta" component={Eve}/>
+        <IndexRoute component={Home}/>
     </Route>
-  </Router>,
-  document.getElementById('app')
-);
+</Router>, document.getElementById('app'));

@@ -8,12 +8,10 @@ var Jumbotron = React.createClass({
         return (
             <div className="jumbotron">
                 <div className="container topBottomMargins">
-                  <div className="col-sm-3"></div>
                     <div className="col-sm-6">
-                        <h1>Hello, welcome to my corner of the internet.</h1>
-                        <h2>I'm Daniel Pape, a product designer and front end developer based in London, England. I'm excited to show you some of the great applications and websites that I've worked on.</h2>
+                        <h1>I'm Daniel Pape, a product designer and front end developer based in London, England.</h1>
+                        <button>Find out more</button>
                     </div>
-                    <div className="col-sm-3"></div>
                 </div>
             </div>
         );

@@ -1,9 +1,15 @@
 .jumbotron {
-    margin-bottom: 0px;
-    background-color: #f7f7f7;
-    color: #263238;
-    padding-top: 50px;
-    padding-bottom: 0px;
+    background-color: #f7f8f9;
+    color: #333;
+
+    h1{
+      font-size: 3em;
+    }
+
+    h2 {
+      font-size: 3em;
+      font-weight: normal;
+    }
 }
 .jumbotron strong {
     color: #777777;
@@ -33,7 +39,7 @@
 }
 
 .logo {
-  display: inline;
+  border-style: hidden;
 }
 
 .links {
