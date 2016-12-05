@@ -8,7 +8,7 @@ var Jumbotron = React.createClass({
         return (
             <div className="jumbotron">
                 <div className="container topBottomMargins">
-                    <div className="col-sm-6">
+                    <div className="col-sm-12">
                         <h1>I'm Daniel Pape, a product designer and front end developer based in London, England.</h1>
                         <button>Find out more</button>
                     </div>
