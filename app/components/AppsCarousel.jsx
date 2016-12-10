@@ -42,16 +42,19 @@ var AppsCarousel = React.createClass({
             <div>
             <div className="col-sm-6 noBottomMargin">
                 <div id="eveAlarmBox" className={appBoxClassArray[0] + ' appBox'}>
-                    <h2>Eve Alarm</h2> <a href="" className="download">Download</a>
-                    <p>{eveDescription}</p>
+                    <h2>Eve Alarm</h2>
+                    <p className="appDescription">{eveDescription}</p>
+                    <a href="" className="download">Download</a>
                 </div>
                 <div id="progress1000Box" className={appBoxClassArray[1] + ' appBox'}>
-                    <h2>Progress 1000</h2> <a href="" className="download">Download</a>
-                    <p>{progress1000Descripton}</p>
+                    <h2>Progress 1000</h2>
+                    <p className="appDescription">{progress1000Descripton}</p>
+                    <a href="" className="download">Download</a>
                 </div>
                 <div id="mapgroundsBox" className={appBoxClassArray[2] + ' appBox'}>
-                    <h2>Mapgrounds</h2> <a href="" className="download">Download</a>
-                    <p>{MapgroundDescription}</p>
+                    <h2>Mapgrounds</h2>
+                    <p className="appDescription">{MapgroundDescription}</p>
+                    <a href="" className="download">Download</a>
                 </div>
                 <div className="bobbles">
                     <span className={bobbleClassArray[0]}>
@@ -65,7 +68,7 @@ var AppsCarousel = React.createClass({
                     </span>
                 </div>
             </div>
-            <div className="col-sm-6 topMargin">
+            <div className="col-sm-6 noBottomMargin">
                 <img src={require('../images/Eve-iPhone.png')} className={displayClassArray[0]}/>
                 <img src={require('../images/Progress-iPhone.png')} className={displayClassArray[1]}/>
                 <img src={require('../images/Mapgrounds-iPhone.png')} className={displayClassArray[2]}/>

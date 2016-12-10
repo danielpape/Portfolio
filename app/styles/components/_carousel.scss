@@ -3,8 +3,10 @@ h2 {
 }
 
 .download {
-  color: #888888;
   text-decoration: none;
+  border-bottom: 1px solid $site-color;
+  // padding-bottom: 1px;
+  color: #000;
 }
 
 .download:hover {
@@ -62,6 +64,10 @@ button {
 button:hover {
     background-color: #B2DFDB;
     border-color: #00796B;
+}
+
+.appDescription{
+  margin: 8px 0px;
 }
 
 @media (max-width: 767px) {

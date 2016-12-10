@@ -57,11 +57,11 @@ var Contact = React.createClass({
     });
 
     return(
-    <section className="colourBack" id="contact">
-        <div className="container-fluid">
+    <section className="blackBack" id="contact">
+        <div className="container">
           <form className="form-horizontal" action="https://formspree.io/danielwpape@gmail.com" method="POST" id="ajax-content">
                 <fieldset>
-                  <div id="contactForm" className="topborder">
+                  <div id="contactForm" className="topwhiteborder">
                         <h1><strong>Contact</strong></h1>
                         <p>Please get in touch if you'd like to talk about how we can work together to make your project awesome.</p>
                         <div className="form-group topMargin">

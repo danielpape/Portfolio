@@ -10,7 +10,6 @@ var Home = (props) => {
     <div>
       <Jumbotron/>
       <Work/>
-      <WhatIDo/>
       <Contact/>
       <Footer/>
     </div>
