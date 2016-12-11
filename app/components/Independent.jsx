@@ -3,7 +3,7 @@ var Appheader = require('Appheader');
 
 var Independent = () => {
     return (
-        <Appheader appName="Independent"/>
+        <h1>This is Independent</h1>
     );
 };
 

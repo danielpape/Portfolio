@@ -3,7 +3,7 @@ var Appheader = require('Appheader');
 
 var Alta = () => {
     return (
-        <Appheader appName="Alta"/>
+        <h1>This is Alta</h1>
     );
 };
 

@@ -3,7 +3,7 @@ var Appheader = require('Appheader');
 
 var Eve = () => {
     return (
-        <Appheader appName="Eve Alarm"/>
+        <h1>This is Eve</h1>
     );
 };
 

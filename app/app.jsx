@@ -5,6 +5,8 @@ var Main = require('Main');
 var Work = require('Work');
 var Contact = require('Contact');
 var Eve = require('Eve');
+var Independent = require('Independent');
+var Alta = require('Alta');
 var Home = require('Home');
 
 // App css
@@ -16,8 +18,8 @@ ReactDOM.render(
         <Route path="work" component={Work}/>
         <Route path="contact" component={Contact}/>
         <Route path="eve" component={Eve}/>
-        <Route path="independent" component={Eve}/>
-        <Route path="alta" component={Eve}/>
+        <Route path="independent" component={Independent}/>
+        <Route path="alta" component={Alta}/>
         <IndexRoute component={Home}/>
     </Route>
 </Router>, document.getElementById('app'));
