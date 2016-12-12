@@ -22,8 +22,8 @@ body {
 }
 
 .topBottomLargeMargins {
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .noBottomMargin {
@@ -81,6 +81,18 @@ body {
     }
     .tablet {
       display: none;
+    }
+
+    .topBottomLargeMargins {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    h1 {
+      margin: 0px;
+    }
+    .jumbotron {
+      padding: 0px;
     }
 }
 @media (min-width: 768px) {

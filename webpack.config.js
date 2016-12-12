@@ -34,6 +34,7 @@ module.exports = {
       AppsCarousel : 'app/components/AppsCarousel.jsx',
       Home: 'app/components/Home.jsx',
       Eve: 'app/components/Eve.jsx',
+      EveDescription: 'app/components/EveDescription.jsx',
       Independent: 'app/components/Independent.jsx',
       Alta: 'app/components/Alta.jsx',
       Appheader: 'app/components/Appheader.jsx'

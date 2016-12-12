@@ -1,0 +1,16 @@
+.highlightBox {
+  background-color: $background-grey;
+  padding: 16px;
+
+  strong {
+    float:left;
+    width: 80px;
+  }
+}
+
+.appsSplash {
+  background: $background-grey url("../images/appsSplash.png") no-repeat right top;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 40px;
+}
