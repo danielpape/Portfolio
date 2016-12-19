@@ -2,9 +2,21 @@
   background-color: $background-grey;
   padding: 16px;
 
+  p{
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
   strong {
     float:left;
     width: 80px;
+  }
+
+  a {
+   text-decoration: none;
+   border-bottom: 1px solid $site-color;
+   // padding-bottom: 1px;
+   color: #000;
   }
 }
 
