@@ -70,10 +70,29 @@ body {
 .width100 {
     width: 100%;
 }
+
+.width30 {
+  width: 30%;
+}
+
+.leftEmbed {
+  float:left;
+  margin:16px;
+}
+
+.rightEmbed {
+  float:right;
+  margin:16px;
+}
 @media (max-width: 767px) {
     .fullWidthMobile {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .width30 {
+      width:50%;
+      margin:auto;
     }
 
     .mobile{
@@ -117,4 +136,11 @@ body {
 
 .appDescriptionBody{
     font-size: 19px;
+}
+
+@media (max-width:400px) {
+  .width30 {
+    width:100%;
+    margin:auto;
+  }
 }
