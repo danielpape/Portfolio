@@ -8,7 +8,7 @@ var Eve = () => {
     return (
       <div>
       <Appheader/>
-        <section>
+        <section className="topBottomMargins">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-3 highlightBox">
@@ -23,9 +23,16 @@ var Eve = () => {
                     </div>
                     <div className="col-sm-9">
                         <EveDescription/>
+
                     </div>
                 </div>
             </div>
+        </section>
+        <section className="topBottomMargins">
+          <div className="container">
+            <div className="col-sm-4"><Image src={require('../images/Eve-iPhone5.png')} className="width100"/></div>
+            <div className="col-sm-8"> <p>This is an early screenshot of Eve Alarm. The wake time is set by dragging the clickwheel. When the clickwheel is rotated the sky ascends and descends to indicate the alarm time.</p></div>
+          </div>
         </section>
         </div>
     );
