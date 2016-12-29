@@ -8,12 +8,29 @@ var Footer = require('Footer');
 var Eve = () => {
     return (
         <div>
-            <Appheader/>
+          <section className="appsSplash">
+              <div className="container">
+                  <div className="row">
+                      <div className="col-sm-12">
+                        <h1>Eve Alarm</h1>
+                        <h2>An app that helps you improve your sleep by reminding you when to go to bed</h2>
+                          <p className="topMarginSmall"><strong>Role:</strong> Design & Development</p>
+                          <p><strong>Platform:</strong> iOS</p>
+                          <p><strong>Language:</strong> Objective-C</p>
+                          <p className="topMarginSmall"><strong>Link:</strong> <a href="https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8">App Store</a></p>
+                      </div>
+                  </div>
+              </div>
+          </section>
             <section className="topBottomMargins">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
-                            <EveDescription/>
+                          <div className="appDescriptionBody">
+                            <h2>Idea</h2>
+                            <blockquote>If you go to bed early and get a restful night's sleep then you shouldn't need an alarm in the morning.</blockquote>
+                            <p>This was the idea behind Eve Alarm. Most people can't choose that time at which they wake up, but they can choose when to go to bed. Eve Alarm is an alarm app that uses this thinking to flip a tradition alarm on its head: <em>a bed time alarm</em> rather than a wake time alarm.</p>
+                      </div>
                         </div>
                     </div>
                 </div>

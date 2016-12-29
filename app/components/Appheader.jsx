@@ -12,7 +12,7 @@ var Appheader = () => {
                       <p className="topMarginSmall"><strong>Role:</strong> Design & Development</p>
                       <p><strong>Platform:</strong> iOS</p>
                       <p><strong>Language:</strong> Objective-C</p>
-                      <p className="topMarginSmall"><strong>Link:</strong> <a href="https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8">AppStore</a></p>
+                      <p className="topMarginSmall"><strong>Link:</strong> <a href="https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8">App Store</a></p>
                   </div>
               </div>
           </div>

@@ -161,22 +161,22 @@ blockquote {
 
 blockquote:before {
   color: #ccc;
-  content: open-quote;
-  font-family: $Libre;
+  content: 	'“';
+  font-family: $Playfair;
   font-size: 4em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
 
-blockquote:after {
-  color: #ccc;
-  content: close-quote;
-  font-family: $Libre;
-  font-size: 4em;
-  line-height: 0.1em;
-  vertical-align: -1em;
-}
+// blockquote:after {
+//   color: #ccc;
+//   content: close-quote;
+//   font-family: $Libre;
+//   font-size: 4em;
+//   line-height: 0.1em;
+//   vertical-align: -1em;
+// }
 
 .width1500 {
   width:1000px;
@@ -185,4 +185,8 @@ blockquote:after {
 h1 {
   font-size:7rem;
   font-weight: 400;
+}
+
+.section_header {
+  font-size: 48px;
 }

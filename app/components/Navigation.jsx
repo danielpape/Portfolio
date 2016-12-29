@@ -11,7 +11,10 @@ var Navigation = React.createClass({
     render: function() {
         return (
           <div className="header container">
-            <div className="col-xs-6">
+            <div className="col-xs-6 tablet">
+              <Link to="/"><Marque/></Link>
+            </div>
+            <div className="col-xs-4 mobile">
               <Link to="/"><Marque/></Link>
             </div>
             <div className="col-xs-3 tablet">
@@ -19,7 +22,7 @@ var Navigation = React.createClass({
                <p className="truncate"><strong>Twitter</strong> <a href={'https://twitter.com/danielpape'}><span className="at">@</span>danielpape</a></p>
                 <p className="truncate"><strong>GitHub</strong> <a href={'https://github.com/danielpape'}>/danielpape</a></p>
             </div>
-            <div className="col-xs-3 mobile">
+            <div className="col-xs-4 mobile">
                <p className="truncate"><a href={'https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8#'}>Email</a></p>
                <p className="truncate"><a href={'https://twitter.com/danielpape'}>Twitter</a></p>
                <p className="truncate"><a href={'https://github.com/danielpape'}>GitHub</a></p>
@@ -29,7 +32,7 @@ var Navigation = React.createClass({
               <p className="truncate"><strong>&nbsp;</strong><Link to={'/independent'}>Independent</Link></p>
               <p className="truncate"><strong>&nbsp;</strong><Link to={'/alta'}>Alta</Link></p>
             </div>
-            <div className="col-xs-3 mobile">
+            <div className="col-xs-4 mobile">
               <p className="truncate"><Link to={'/eve'}>Eve&nbsp;Alarm</Link></p>
               <p className="truncate"><Link to={'/independent'}>Independent</Link></p>
               <p className="truncate"><Link to={'/alta'}>Alta</Link></p>
