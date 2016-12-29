@@ -21,7 +21,7 @@
 }
 
 .appsSplash {
-  background: $background-grey url("../images/appsSplash.png") no-repeat right top;
+  background-color: $background-grey;
   padding-top: 120px;
   padding-bottom: 120px;
   margin-bottom: 40px;
@@ -32,4 +32,17 @@
    // padding-bottom: 1px;
    color: #000;
   }
+
+  h1{
+    margin-bottom: 24px;
+  }
+  h2 {
+    margin-bottom: 12px;
+  }
+}
+
+.annotation {
+  color: $site-color;
+  font-size: 12px;
+  max-width: 300px;
 }

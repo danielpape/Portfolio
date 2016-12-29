@@ -6,7 +6,7 @@ var Appheader = () => {
       <section className="appsSplash">
           <div className="container">
               <div className="row">
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <h1>Eve Alarm</h1>
                     <h2>An app that helps you improve your sleep by reminding you when to go to bed</h2>
                       <p className="topMarginSmall"><strong>Role:</strong> Design & Development</p>

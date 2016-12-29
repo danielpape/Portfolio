@@ -3,6 +3,7 @@ var Appheader = require('Appheader');
 var EveDescription = require('EveDescription');
 import {Image} from 'react-bootstrap';
 var {Link} = require('react-router');
+var Footer = require('Footer');
 
 var Eve = () => {
     return (
@@ -20,11 +21,13 @@ var Eve = () => {
             <section className="topBottomLargeMargins">
                 <div className="container-fluid">
                     <div className="appDescriptionBody">
-                        <div className="col-sm-8"><Image src={require('../images/eve_concept.jpg')} className="width100"/></div>
+                        <div className="col-sm-8"><Image src={require('../images/eve_concept.jpg')} className="width100"/>
+                        <p className="annotation bottomMarginMedium">I dug through some old sketchbooks and found the original sketch for the UI design.</p>
+                        </div>
                         <div className="col-sm-4">
                           <h2>Design Concept</h2>
                             <p>It's important to me that a user interface is easy to understand and related to the subject of the product. I experimented and came up with the concept of a clickwheel based design which mirrors the shape of the sun. When the clickwheel is rotated the whole background of the app slides up and down to create a sunrise and sunset.</p>
-                        </div>
+                      </div>
                     </div>
                 </div>
             </section>
@@ -53,6 +56,7 @@ var Eve = () => {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </div>
     );
 };
