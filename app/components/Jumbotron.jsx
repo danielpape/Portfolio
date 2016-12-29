@@ -9,7 +9,7 @@ var Jumbotron = React.createClass({
             <div className="jumbotron">
                 <div className="container topBottomLargeMargins">
                     <div className="col-sm-8">
-                        <h1>I'm <strong>Daniel Pape</strong>, a product designer and front end developer based in London, England.</h1>
+                        <h1>Daniel Pape</h1><h2>A product designer and front end developer based in London, England.</h2>
                     </div>
                 </div>
             </div>
