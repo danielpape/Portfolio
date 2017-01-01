@@ -3,11 +3,28 @@ import {Image} from 'react-bootstrap';
 
 var EveDescription = () => {
     return (
-      <div className="appDescriptionBody">
-        <h2>Idea</h2>
-        <blockquote>If you go to bed early and get a restful night's sleep then you shouldn't need an alarm in the morning.</blockquote>
-        <p>This was the idea behind Eve Alarm. Most people can't choose that time at which they wake up, but they can choose when to go to bed. Eve Alarm is an alarm app that uses this thinking to flip a tradition alarm on its head: <em>a bed time alarm</em> rather than a wake time alarm.</p>
-  </div>
+        <section>
+            <div className="container">
+                <div>
+                    <div className="col-xs-12 col-sm-6 col-lg-3 appTile eveTile">
+                        <h3>Eve Alarm</h3>
+                        <h4>An alarm app for iPhone</h4>
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-lg-3 appTile indTile">
+                        <h3>Independent</h3>
+                        <h4>Subscriptions website</h4>
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-lg-3 appTile altTile">
+                        <h3>Alta</h3>
+                        <h4>Landscape photography app</h4>
+
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-lg-3 appTile appsTile">
+                        <h3>View all apps</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 };
 

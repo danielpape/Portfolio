@@ -31,7 +31,7 @@ module.exports = {
       WhatIDo : 'app/components/WhatIDo.jsx',
       Contact : 'app/components/Contact.jsx',
       Footer : 'app/components/Footer.jsx',
-      AppsCarousel : 'app/components/AppsCarousel.jsx',
+      AppTiles: 'app/components/AppTiles.jsx',
       Home: 'app/components/Home.jsx',
       Eve: 'app/components/Eve.jsx',
       EveDescription: 'app/components/EveDescription.jsx',
