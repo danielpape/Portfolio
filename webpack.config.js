@@ -37,7 +37,8 @@ module.exports = {
       EveDescription: 'app/components/EveDescription.jsx',
       Independent: 'app/components/Independent.jsx',
       Alta: 'app/components/Alta.jsx',
-      Appheader: 'app/components/Appheader.jsx'
+      Appheader: 'app/components/Appheader.jsx',
+      Mapgrounds: 'app/components/Mapgrounds.jsx'
     },
     extensions: ['','.js','.jsx']
   },

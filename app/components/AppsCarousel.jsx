@@ -35,7 +35,7 @@ var AppsCarousel = React.createClass({
         }
 
         var eveDescription = "Eve is an alarm app for iPhone that uses a sunrise-based interface to remind you when you go to bed. The interface is custom written and the app uses local notifications to trigger the alarm and reminder.";
-        var progress1000Descripton = "The Evening Standard Progress 1000 is an annual event that celebrates the most influential people in London. I built a responsive iPhone & iPad platform to present all 1000 entries with offline caching.";
+        var progress1000Descripton = "The Evening Standard Progress 1000 is an annual event that celebrates the most influential people in London. I built a responsive iPhone & iPad app to present all 1000 entries with offline caching.";
         var MapgroundDescription = "Mapgrounds is an app for iPhone that creates beautiful wallpapers for your phone. It uses embedded Apple Maps and allows the user to buy new themes through in-app purchases";
 
         return (

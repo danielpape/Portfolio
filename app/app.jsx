@@ -8,7 +8,6 @@ var Eve = require('Eve');
 var Independent = require('Independent');
 var Alta = require('Alta');
 var Home = require('Home');
-
 // App css
 require('style!css!sass!applicationStyles')
 
