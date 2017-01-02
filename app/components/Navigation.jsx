@@ -20,8 +20,8 @@ var Navigation = React.createClass({
             <div className="col-xs-3 tablet">
                <p className="truncate"><strong>Email:</strong> <a href={'https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8#'}>danielwpape<span className="at">@</span>gmail.com</a></p>
                <p className="truncate"><strong>Twitter</strong> <a href={'https://twitter.com/danielpape'}><span className="at">@</span>danielpape</a></p>
-                <p className="truncate"><strong>GitHub</strong> <a href={'https://github.com/danielpape'}>/danielpape</a></p>
-            </div>
+               <p className="truncate"><strong>GitHub</strong> <a href={'https://github.com/danielpape'}>/danielpape</a></p>
+          </div>
             <div className="col-xs-4 mobile">
                <p className="truncate"><a href={'https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8#'}>Email</a></p>
                <p className="truncate"><a href={'https://twitter.com/danielpape'}>Twitter</a></p>
@@ -30,12 +30,12 @@ var Navigation = React.createClass({
             <div className="col-xs-3 tablet">
               <p className="truncate"><strong>Products:</strong> <Link to={'/eve'}>Eve&nbsp;Alarm</Link></p>
               <p className="truncate"><strong>&nbsp;</strong><Link to={'/independent'}>Independent</Link></p>
-              <p className="truncate"><strong>&nbsp;</strong><Link to={'/alta'}>Alta</Link></p>
+              <p className="truncate"><strong>&nbsp;</strong><Link to={'/eveningstandard'}>Evening Standard</Link></p>
             </div>
             <div className="col-xs-4 mobile">
               <p className="truncate"><Link to={'/eve'}>Eve&nbsp;Alarm</Link></p>
               <p className="truncate"><Link to={'/independent'}>Independent</Link></p>
-              <p className="truncate"><Link to={'/alta'}>Alta</Link></p>
+              <p className="truncate"><Link to={'/eveningstandard'}>Evening Standard</Link></p>
             </div>
         </div>
         );

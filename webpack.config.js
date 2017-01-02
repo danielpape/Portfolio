@@ -32,13 +32,15 @@ module.exports = {
       Contact : 'app/components/Contact.jsx',
       Footer : 'app/components/Footer.jsx',
       AppTiles: 'app/components/AppTiles.jsx',
+      AppsCarousel: 'app/components/AppsCarousel.jsx',
       Home: 'app/components/Home.jsx',
       Eve: 'app/components/Eve.jsx',
       EveDescription: 'app/components/EveDescription.jsx',
       Independent: 'app/components/Independent.jsx',
       Alta: 'app/components/Alta.jsx',
       Appheader: 'app/components/Appheader.jsx',
-      Mapgrounds: 'app/components/Mapgrounds.jsx'
+      Mapgrounds: 'app/components/Mapgrounds.jsx',
+      EveningStandard: 'app/components/EveningStandard.jsx'
     },
     extensions: ['','.js','.jsx']
   },

@@ -8,6 +8,8 @@ var Eve = require('Eve');
 var Independent = require('Independent');
 var Alta = require('Alta');
 var Home = require('Home');
+var Mapgrounds = require('Mapgrounds');
+var EveningStandard = require('EveningStandard');
 // App css
 require('style!css!sass!applicationStyles')
 
@@ -19,6 +21,8 @@ ReactDOM.render(
         <Route path="eve" component={Eve}/>
         <Route path="independent" component={Independent}/>
         <Route path="alta" component={Alta}/>
+        <Route path="mapgrounds" component={Mapgrounds}/>
+        <Route path="eveningstandard" component={EveningStandard}/>
         <IndexRoute component={Home}/>
     </Route>
 </Router>, document.getElementById('app'));

@@ -5,13 +5,19 @@ h2 {
   font-weight: 400;
 }
 
+.homeTiles{
+  a {
+    color: #333;
+  }
+}
+
 .appTile {
-  height: 200px;
+  height: 240px;
   background-color: #f3f3f3;
   padding:16px;
 
   h3 {
-    // text-align: center;
+    text-align: center;
     font-size: 18px;
     margin-bottom: 4px;
     margin-top: 0px;
@@ -20,7 +26,7 @@ h2 {
   }
 
   h4 {
-    // text-align: center;
+    text-align: center;
     font-size: 16px;
     margin-top: 0px;
     text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.9);
@@ -28,21 +34,21 @@ h2 {
 }
 
 .eveTile {
-    background: #f5f5f5 url("../images/eve_homeTile.jpg") no-repeat right center;
-    background-size: 360px 200px;
+    background: #f5f5f5 url("../images/eve_homeTile.jpg") no-repeat center center;
+    background-size: 360px 240px;
 }
 
 .indTile {
-    background: #f5f5f5 url("../images/independentsubs_homeTile.jpg") no-repeat right center;
-    background-size: 360px 200px;
+    background: #f5f5f5 url("../images/independentsubs_homeTile.jpg") no-repeat center center;
+    background-size: 360px 240px;
 }
 
 .altTile {
-    background: #f5f5f5 url("../images/alta_homeTile.jpg") no-repeat right center;
-    background-size: 360px 200px;
+    background: #f5f5f5 url("../images/alta_homeTile.jpg") no-repeat center center;
+    background-size: 360px 240px;
 }
 
 .appsTile {
-    background: #f5f5f5 url("../images/independentsubs_homeTile.jpg") no-repeat right center;
-    background-size: 360px 200px;
+    background: #f5f5f5 url("../images/independentsubs_homeTile.jpg") no-repeat center center;
+    background-size: 360px 240px;
 }
