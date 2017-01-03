@@ -38,8 +38,8 @@ var EveningStandard = () => {
           <div className="container">
                 <div className="appDescriptionBody">
                     <div className="col-sm-4">
-                      <h2>Design Concept</h2>
-                        <p>To emphasise the content that is to be found in the app I used dramatic looking imagery in the header. The copy and imagery focus on communicating the contributers and content to be found in the app.</p>
+                      <h2>Software Design</h2>
+                        <p>Because of the large amount of entries that are displayed in the app, I created a universal build which uses the same view controllers and database for both the iPhone & iPad apps.</p>
                 </div>
                   <div className="col-sm-8"><Image src={require('../images/independentsubs_interface.jpg')} className="width100"/>
                   </div>
