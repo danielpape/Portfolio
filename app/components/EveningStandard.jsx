@@ -53,7 +53,7 @@ var EveningStandard = () => {
                   </div>
                   <div className="col-sm-4">
                     <h2>UI Design</h2>
-                      <p>A clear and simple to understand card is used to communicate the subscription options available, with anchor links in the lower sections that return the user to these options.</p>
+                      <p>The app presents all 1000 entries in a collection view which is split into the different categories. Once selected, an entry is presented as a popover to improve readability.</p>
               </div>
                 </div>
               </div>
