@@ -39,7 +39,7 @@ var EveningStandard = () => {
                 <div className="appDescriptionBody">
                     <div className="col-sm-4">
                       <h2>Software Design</h2>
-                        <p>Because of the large amount of entries that are displayed in the app, I created a universal build which uses the same view controllers and database for both the iPhone & iPad apps.</p>
+                        <p>Organising 1000 entries is a challenge to manage from a interface design and software design point of view. To optimise the bundle size both the iPhone and iPad views to use the same view controllers which I write to be GUI-neutral. Both versions of the app also use the same JSON database which contains the 1000 entries in the list.</p>
                 </div>
                   <div className="col-sm-8"><Image src={require('../images/independentsubs_interface.jpg')} className="width100"/>
                   </div>
@@ -53,7 +53,7 @@ var EveningStandard = () => {
                   </div>
                   <div className="col-sm-4">
                     <h2>UI Design</h2>
-                      <p>The app presents all 1000 entries in a collection view which is split into the different categories. Once selected, an entry is presented as a popover to improve readability.</p>
+                      <p>The app presents all 1000 entries in a collection view which is split into the different categories. Once selected, an entry is presented as a popover to improve readability. On mobile the popover takes up the whole screen. To increase engagement the entries are paginated, making it simple for the user to swipe between each page.</p>
               </div>
                 </div>
               </div>
