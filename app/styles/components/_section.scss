@@ -167,7 +167,8 @@ blockquote {
   line-height: 3.8rem;
   font-family: $Libre;
   font-style: italic;
-  padding:2em 32px 0px 32px;
+  padding:16px;
+  margin-bottom: 0px;
 }
 
 blockquote:before {
@@ -201,4 +202,12 @@ h1 {
 
 .section_header {
   font-size: 48px;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.centerAlign {
+  text-align: center;
 }

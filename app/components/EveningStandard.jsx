@@ -24,11 +24,14 @@ var EveningStandard = () => {
         <section className="topBottomMargins">
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-12">
+                  <div className="col-sm-6">
+                    <blockquote>There are so many inspiring, dedicated and heroic people on the Progress 1000 list. From giants of industry and successful entrepreneurs, to sporting heroes and Olympic medalists.</blockquote>
+                    <p className="centerAlign"><strong>Sadiq Khan</strong> Mayor of London</p>
+                  </div>
+                    <div className="col-sm-6">
                       <div className="appDescriptionBody">
                         <h2>Background</h2>
-                        <blockquote>There are so many inspiring, dedicated and heroic people on the Progress 1000 list. From giants of industry and successful entrepreneurs, to sporting heroes and Olympic medalists.</blockquote>
-                        <p>The Progress 1000 is an annual event that is organised and curated by London Evening Standard. It celebrates the most influential people in the capital from all walks of life. I created a bespoke platform that has been used for iPhone & iPad apps over the past 3 years, which features all 1000 entries in the list.</p>
+                          <p>The Progress 1000 is an annual event that is organised and curated by London Evening Standard. It celebrates the most influential people in the capital from all walks of life. I created a bespoke platform that has been used for iPhone & iPad apps over the past 3 years, which features all 1000 entries in the list.</p>
                   </div>
                     </div>
                 </div>
@@ -38,7 +41,7 @@ var EveningStandard = () => {
           <div className="container">
                 <div className="appDescriptionBody">
                     <div className="col-sm-4">
-                      <h2>Software Design</h2>
+                      <h2>Software Approach</h2>
                         <p>Organising 1000 entries is a challenge to manage from a interface design and software design point of view. To optimise the bundle size both the iPhone and iPad views to use the same view controllers which I write to be GUI-neutral. Both versions of the app also use the same JSON database which contains the 1000 entries in the list.</p>
                 </div>
                   <div className="col-sm-8"><Image src={require('../images/independentsubs_interface.jpg')} className="width100"/>

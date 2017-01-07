@@ -25,12 +25,13 @@ var Mapgrounds = () => {
             <section className="topBottomMargins">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12">
+                        <div className="col-sm-6">
                           <div className="appDescriptionBody">
                             <h2>Idea</h2>
-                            <blockquote>If you go to bed early and get a restful night's sleep then you shouldn't need an alarm in the morning.</blockquote>
-                            <p>This was the idea behind Eve Alarm. Most people can't choose that time at which they wake up, but they can choose when to go to bed. Eve Alarm is an alarm app that uses this thinking to flip a tradition alarm on its head: <em>a bed time alarm</em> rather than a wake time alarm.</p>
+                            <p>I came up with the idea for Mapgrounds after playing around with creating physical art from maps. I had produced this piece of art as a gift for my girlfriend which featured 9 places that had sentimental value to us. Everyone has places that are meaningful to them, so I wanted to help more people create similar artwork.</p>
                       </div>
+                        </div>
+                        <div className="col-sm-6">
                         </div>
                     </div>
                 </div>
@@ -39,11 +40,10 @@ var Mapgrounds = () => {
                 <div className="container-fluid">
                     <div className="appDescriptionBody">
                         <div className="col-sm-8"><Image src={require('../images/eve_concept.jpg')} className="width100"/>
-                        <p className="annotation bottomMarginMedium">I dug through some old sketchbooks and found the original sketch for the UI design.</p>
                         </div>
                         <div className="col-sm-4">
                           <h2>Design Concept</h2>
-                            <p>It's important to me that a user interface is easy to understand and related to the subject of the product. I experimented and came up with the concept of a clickwheel based design which mirrors the shape of the sun. When the clickwheel is rotated the whole background of the app slides up and down to create a sunrise and sunset.</p>
+                            <p>I wanted the app to always be giving a preview of how the artwork would look. Rather than sending the user through many settings screens, the main interface acts as a preivew and the user can tap on an element to edit it. The app uses an embedded Apple Maps view to provide the map design.</p>
                       </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ var Mapgrounds = () => {
                     <div className="appDescriptionBody">
                           <div className="col-sm-12">
                             <h2>UI & Graphic Design</h2>
-                              <p>I used mainly gradients and flat colours in the user interface. This app was designed before iOS 7 was released so the design was aiming to incorportate the design language that was expected for iOS's major redesign. </p>
+                              <p>I used a soft, friendly tone of voice for the app as I was aiming at a female audience, there are simple bold buttons at the bottom of the interface to edit, share and save the design. </p>
                           </div>
                   </div>
                 </div>
