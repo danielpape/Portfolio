@@ -52,9 +52,9 @@ var EveningStandard = () => {
         <section className="topBottomLargeMargins">
           <div className="container">
                 <div className="appDescriptionBody">
-                  <div className="col-sm-8"><Image src={require('../images/independentsubs_devices.jpg')} className="width100"/>
+                  <div className="col-sm-4"><Image src={require('../images/ProgressMakers_UI.png')} className="width100"/>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-sm-8">
                     <h2>UI Design</h2>
                       <p>The app presents all 1000 entries in a collection view which is split into the different categories. Once selected, an entry is presented as a popover to improve readability. On mobile the popover takes up the whole screen. To increase engagement the entries are paginated, making it simple for the user to swipe between each page.</p>
               </div>
