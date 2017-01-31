@@ -35,28 +35,43 @@ h2 {
 }
 
 .eveTile {
-    background: #f5f5f5 url("../images/eve_homeTile.jpg") no-repeat center center;
-    background-size: 360px 240px;
+    background-color: white;
+    color: #333;
 }
 
 .indTile {
-    background: #f5f5f5 url("../images/independentsubs_homeTile.jpg") no-repeat center center;
-    background-size: 360px 240px;
+    background-color: white;
+    color: #333;
 }
 
 .altTile {
-    background: #f5f5f5 url("../images/Progress-1000-bg.jpg") no-repeat center center;
-    background-size: 360px 240px;
-    color:#fff;
-    h3 {
-      text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
-    }
-    h4 {
-      text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
-    }
+    background-color: white;
+    color: #333;
 }
 
 .appsTile {
     background: #f5f5f5 url("../images/independentsubs_homeTile.jpg") no-repeat center center;
     background-size: 360px 240px;
+}
+
+.appSection {
+    color: #333;
+    margin-bottom: 0px;
+
+    h1{
+      font-size: 32px;
+      margin-bottom: 12px;
+      font-family: $Cabin;
+      font-weight: 300;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: normal;
+    }
+
+    .container{
+
+    }
+
 }

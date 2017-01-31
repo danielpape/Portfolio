@@ -4,30 +4,38 @@ var {Link} = require('react-router');
 
 var EveDescription = () => {
     return (
-        <section className="homeTiles">
-            <div className="container homeTiles">
-                <div>
-                  <Link to="/eve">
-                    <div className="col-xs-12 col-sm-12 col-lg-4 appTile eveTile">
-                        <h3>Eve Alarm</h3>
-                        <h4>An alarm app for iPhone</h4>
-                    </div>
-                    </Link>
-                    <Link to="/independent">
-                    <div className="col-xs-12 col-sm-6 col-lg-4 appTile indTile">
-                        <h3>Independent</h3>
-                        <h4>Subscriptions website</h4>
-                    </div>
-                  </Link>
-                  <Link to="/eveningstandard">
-                    <div className="col-xs-12 col-sm-6 col-lg-4 appTile altTile">
-                        <h3>London Evening Standard</h3>
-                        <h4>The Progress 1000 app</h4>
-                    </div>
-                  </Link>
-                </div>
+      <div>
+        <section className="topBottomLargeMargins appSection eveTile">
+          <div className="container">
+            <div className="col-sm-4">
+              <Image src={require('../images/eve_homePageImage.png')} className="width100"/>
             </div>
+              <div className="col-sm-8">
+                  <h1><strong>Eve Alarm</strong></h1><h2>An alarm app that reminds you when to go to bed</h2>
+              </div>
+              </div>
         </section>
+        <section className="topBottomLargeMargins appSection indTile">
+          <div className="container">
+            <div className="col-sm-4">
+
+            </div>
+              <div className="col-sm-8">
+                  <h1><strong>Independent</strong></h1><h2>Subscriptions website</h2>
+              </div>
+              </div>
+        </section>
+        <section className="topBottomLargeMargins appSection altTile">
+          <div className="container">
+            <div className="col-sm-4">
+
+            </div>
+              <div className="col-sm-8">
+                  <h1><strong>London Evening Standard</strong></h1><h2>Progress 1000 app</h2>
+              </div>
+              </div>
+        </section>
+        </div>
     );
 };
 
