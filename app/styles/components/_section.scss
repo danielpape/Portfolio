@@ -1,11 +1,22 @@
 body {
-    font-family: $Cabin;
+    font-family: $Assistant;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 0.4px;
     overflow-x: hidden;
 }
 p {
   margin-bottom: 2px;
+}
+
+.darkBack {
+  background-color: #141414;
+  color: #f5f5f5;
+  h2 {
+    color: #ffffff;
+  }
+  blockquote{
+    color: #ffffff;
+  }
 }
 
 .container-fluid {
@@ -144,12 +155,19 @@ p {
 
 .appDescriptionBody{
     font-size: 16px;
+    line-height: 24px;
+
 
     a {
      text-decoration: none;
      border-bottom: 1px solid $site-color;
      // padding-bottom: 1px;
      color: #000;
+    }
+
+    h2 {
+      font-family: $Halant;
+      letter-spacing: normal;
     }
 }
 
