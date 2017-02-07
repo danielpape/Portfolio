@@ -61,13 +61,15 @@ h2 {
     h1{
       font-size: 32px;
       margin-bottom: 12px;
-      font-family: $Cabin;
+      font-family: $Halant;
       font-weight: 300;
     }
 
     h2 {
-      font-size: 24px;
+      font-size: 20px;
       font-weight: normal;
+      font-family: $Assistant;
+      letter-spacing: 0.4px;
     }
 
     .container{
