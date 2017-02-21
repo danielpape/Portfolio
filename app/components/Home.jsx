@@ -8,7 +8,6 @@ var Home = (props) => {
   return(
     <div>
       <Jumbotron/>
-      <EveDescription/>
       <Contact/>
       <Footer/>
     </div>

@@ -8,8 +8,8 @@ var Jumbotron = React.createClass({
         return (
             <div className="jumbotron">
                 <div className="container topBottomLargeMargins">
-                    <div className="col-sm-8 col-sm-offset-2">
-                        <h1><strong>Daniel Pape</strong>: A product designer and front end developer based in London, England.</h1>
+                    <div className="col-sm-12">
+                        <h1>Hello, I'm <strong>Daniel Pape</strong>: a product designer and front end developer based in London, England.</h1>
                     </div>
                 </div>
             </div>
