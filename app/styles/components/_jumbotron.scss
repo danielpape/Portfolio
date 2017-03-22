@@ -4,7 +4,7 @@
     margin-bottom: 0px;
 
     h1{
-      font-size: 5rem;
+      font-size: 7rem;
       margin-bottom: 24px;
       font-family: $PermanentMarker;
     }
@@ -12,12 +12,22 @@
     h2 {
       font-size: 32px;
       font-weight: normal;
+      font-family: $Khand;
+      text-transform: uppercase;
     }
 
     .container{
 
     }
 
+}
+
+@media (max-width: 767px) {
+  .jumbotron{
+    h1 {
+      font-size: 5rem;
+    }
+  }
 }
 
 .jumbotron p {
