@@ -1,5 +1,5 @@
 .jumbotron {
-    background: #f7f8f9;
+    background: #222;
     color: #333;
     margin-bottom: 0px;
 
@@ -7,6 +7,7 @@
       font-size: 7rem;
       margin-bottom: 24px;
       font-family: $PermanentMarker;
+      color: white;
     }
 
     h2 {
@@ -14,6 +15,7 @@
       font-weight: normal;
       font-family: $Khand;
       text-transform: uppercase;
+      color: $site-color;
     }
 
     .container{

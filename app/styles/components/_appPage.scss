@@ -21,23 +21,28 @@
 }
 
 .appsSplash {
-  background-color: $background-grey;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  background-color: #222;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  color: white;
 
   a {
    text-decoration: none;
    border-bottom: 1px solid $site-color;
    // padding-bottom: 1px;
-   color: #000;
+   color: #666666;
   }
 
   h1{
     margin-bottom: 24px;
+    font-size: 7rem;
     font-family: $PermanentMarker;
   }
   h2 {
     margin-bottom: 12px;
+    font-family: $Khand;
+    text-transform: uppercase;
+    color: #666666;
   }
 
 }
@@ -45,6 +50,10 @@
   .appsSplash{
     padding-top: 40px;
     padding-bottom: 40px;
+
+    h1{
+      font-size: 5rem;
+    }
 
     h2{
       font-size: 24px;
