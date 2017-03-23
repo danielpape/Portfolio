@@ -16,9 +16,6 @@
     "react-bootstrap": "^0.30.6",
     "react-dom": "^15.4.0",
     "react-router": "^2.0.0",
-    "react-router-hash-scroll": "^0.2.7",
-    "react-scroll": "^1.4.4",
-    "react-scrollchor": "^2.2.0",
     "url-loader": "^0.5.7"
   },
   "devDependencies": {
