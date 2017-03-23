@@ -21,7 +21,6 @@ var Alta = () => {
         </section>
         <section className="topBottomMargins">
             <div className="container-fluid">
-                      <Image src={require('../images/alta_landscapes.jpg')} className="width100"/>
             </div>
             <div className="container">
                 <div className="row">

@@ -1,5 +1,4 @@
 var React = require('react');
-var AppsCarousel = require('AppsCarousel');
 
 var Work = React.createClass({
   getDefaultProps : function () {

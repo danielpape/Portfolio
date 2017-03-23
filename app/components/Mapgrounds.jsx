@@ -1,6 +1,5 @@
 var React = require('react');
 var Appheader = require('Appheader');
-var EveDescription = require('EveDescription');
 import {Image} from 'react-bootstrap';
 var {Link} = require('react-router');
 var Footer = require('Footer');
