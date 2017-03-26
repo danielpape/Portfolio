@@ -1,7 +1,6 @@
 var React = require('react');
 var Marque = require('Marque');
 var $ = require('jQuery');
-import Scrollchor from 'react-scrollchor';
 
 var Jumbotron = React.createClass({
     render: function() {
