@@ -46,14 +46,15 @@ var EveningStandard = () => {
             </div>
               </div>
         </section>
-        <section className="topBottomLargeMargins">
+        <section className="topMargin">
           <div className="container">
                 <div className="appDescriptionBody">
                   <div className="col-sm-6">
-                  </div>
-                  <div className="col-sm-6">
                     <h2>User Interface Design</h2>
                       <p>To allow the user to explore the entries in the list, a persistant menu button is always present in the top-left corner with a prompt to interact with it when the app is first opened. The app uses a collection view to present the entries in each category. Once selected, an entry is presented as a popover to improve readability. On mobile the popover takes up the whole screen. To increase engagement the entries are paginated, making it simple for the user to swipe between each page.</p>
+              </div>
+              <div className="col-sm-6">
+                <Image src={require('../images/progressUI.jpg')} className="width100"/>
               </div>
                 </div>
               </div>
