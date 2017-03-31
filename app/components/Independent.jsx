@@ -1,5 +1,4 @@
 var React = require('react');
-var Appheader = require('Appheader');
 import {Image} from 'react-bootstrap';
 var Footer = require('Footer');
 
@@ -57,7 +56,6 @@ var Independent = () => {
                 </div>
               </div>
         </section>
-        <Footer/>
         </div>
           );
 };

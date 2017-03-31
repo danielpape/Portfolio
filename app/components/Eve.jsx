@@ -1,5 +1,4 @@
 var React = require('react');
-var Appheader = require('Appheader');
 import {Image} from 'react-bootstrap';
 var {Link} = require('react-router');
 var Footer = require('Footer');
@@ -71,7 +70,6 @@ var Eve = () => {
                     </div>
                 </div>
             </section>
-            <Footer/>
         </div>
     );
 };

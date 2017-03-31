@@ -34,17 +34,11 @@ module.exports = {
       Navigation : 'app/components/Navigation.jsx',
       Jumbotron : 'app/components/Jumbotron.jsx',
       Marque : 'app/components/Marque.jsx',
-      Work : 'app/components/Work.jsx',
-      WhatIDo : 'app/components/WhatIDo.jsx',
       Contact : 'app/components/Contact.jsx',
       Footer : 'app/components/Footer.jsx',
-      AppTiles: 'app/components/AppTiles.jsx',
       Home: 'app/components/Home.jsx',
       Eve: 'app/components/Eve.jsx',
       Independent: 'app/components/Independent.jsx',
-      Alta: 'app/components/Alta.jsx',
-      Appheader: 'app/components/Appheader.jsx',
-      Mapgrounds: 'app/components/Mapgrounds.jsx',
       EveningStandard: 'app/components/EveningStandard.jsx'
     },
     extensions: ['','.js','.jsx']

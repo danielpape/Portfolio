@@ -18,12 +18,12 @@ var Navigation = React.createClass({
               <Link to="/"><Marque/></Link>
             </div>
             <div className="col-xs-3 tablet">
-               <p className="truncate"><strong>Email:</strong> <a href={'https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8#'}>danielwpape<span className="at">@</span>gmail.com</a></p>
+               <p className="truncate"><strong>Email:</strong> <a href={'mailto:danielwpape@gmail.com'}>danielwpape<span className="at">@</span>gmail.com</a></p>
                <p className="truncate"><strong>Twitter</strong> <a href={'https://twitter.com/danielpape'}><span className="at">@</span>danielpape</a></p>
                <p className="truncate"><strong>GitHub</strong> <a href={'https://github.com/danielpape'}>/danielpape</a></p>
           </div>
             <div className="col-xs-4 mobile">
-               <p className="truncate"><a href={'https://itunes.apple.com/gb/app/eve-alarm-time-to-sleep/id633081958?mt=8#'}>Email</a></p>
+               <p className="truncate"><a href={'mailto:danielwpape@gmail.com'}>Email</a></p>
                <p className="truncate"><a href={'https://twitter.com/danielpape'}>Twitter</a></p>
                <p className="truncate"><a href={'https://github.com/danielpape'}>GitHub</a></p>
             </div>

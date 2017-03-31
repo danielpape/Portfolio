@@ -1,5 +1,4 @@
 var React = require('react');
-var Appheader = require('Appheader');
 import {Image} from 'react-bootstrap';
 var Footer = require('Footer');
 
@@ -73,7 +72,6 @@ var EveningStandard = () => {
                     <div className="col-sm-6"><Image src={require('../images/progress_interface2.jpg')} className="width100"/></div>
             </div>
         </section>
-        <Footer/>
         </div>
           );
 };
