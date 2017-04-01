@@ -28,14 +28,14 @@ var Navigation = React.createClass({
                <p className="truncate"><a href={'https://github.com/danielpape'}>GitHub</a></p>
             </div>
             <div className="col-xs-3 tablet">
-              <p className="truncate"><strong>Products:</strong> <Link to={'/eve'}>Eve&nbsp;Alarm</Link></p>
-              <p className="truncate"><strong>&nbsp;</strong><Link to={'/independent'}>Independent</Link></p>
+              <p className="truncate"><strong>Products:</strong><Link to={'/independent'}>Independent</Link></p>
               <p className="truncate"><strong>&nbsp;</strong><Link to={'/eveningstandard'}>Evening Standard</Link></p>
+              <p className="truncate"><strong>&nbsp;</strong> <Link to={'/eve'}>Eve&nbsp;Alarm</Link></p>
             </div>
             <div className="col-xs-4 mobile">
-              <p className="truncate"><Link to={'/eve'}>Eve&nbsp;Alarm</Link></p>
               <p className="truncate"><Link to={'/independent'}>Independent</Link></p>
               <p className="truncate"><Link to={'/eveningstandard'}>Evening Standard</Link></p>
+              <p className="truncate"><Link to={'/eve'}>Eve&nbsp;Alarm</Link></p>
             </div>
         </div>
         );
