@@ -33,6 +33,7 @@ module.exports = {
       applicationStyles: 'app/styles/app.scss',
       Navigation : 'app/components/Navigation.jsx',
       Jumbotron : 'app/components/Jumbotron.jsx',
+      FrontpageWork : 'app/components/FrontpageWork.jsx',
       Marque : 'app/components/Marque.jsx',
       Contact : 'app/components/Contact.jsx',
       Footer : 'app/components/Footer.jsx',

@@ -61,10 +61,10 @@ var Contact = React.createClass({
         <div className="container">
           <form className="form-horizontal" action="https://formspree.io/danielwpape@gmail.com" method="POST" id="ajax-content">
                 <fieldset>
-                  <div id="contactForm" className="topwhiteborder">
+                  <div id="contactForm">
                         <h2 className="section_header"><strong>Contact</strong></h2>
                         <p>Please get in touch if you'd like to talk about how we can work together to make your project awesome.</p>
-                        <div className="form-group topMargin">
+                        <div className="form-group topMarginSmall">
                             <div className="col-sm-6 inputGroupContainer">
                                 <div className="input-group width100">
                                     <input name="name" placeholder="Name" className="form-control formStyle" type="text"/>

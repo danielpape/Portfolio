@@ -1,6 +1,5 @@
 var React = require('react');
 import {Image} from 'react-bootstrap';
-var Footer = require('Footer');
 
 var EveningStandard = () => {
     return (
