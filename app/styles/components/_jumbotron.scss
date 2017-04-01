@@ -1,27 +1,39 @@
 .jumbotron {
-    background: #222;
-    color: #333;
+    background: #F7F7F7;
+    color: #263238;
     margin-bottom: 0px;
 
     h1{
       font-size: 7rem;
       margin-bottom: 24px;
       font-family: $PermanentMarker;
-      color: white;
     }
 
     h2 {
-      font-size: 32px;
+      font-size: 24px;
+      line-height: 36px;
       font-weight: normal;
-      font-family: $Khand;
-      text-transform: uppercase;
-      color: $site-color;
+      font-family: $Adamina;
+      color: #424242;
     }
 
-    .container{
+    a {
+     text-decoration: none;
+     border-bottom: 1px solid black;
+     padding-bottom: 1px;
+     }
 
-    }
+     a:hover {
+       color:#424242;
+     }
 
+}
+.independent {
+    color: $indy-red;
+}
+
+.myOwnApps {
+    color: $site-color;
 }
 
 @media (max-width: 767px) {
@@ -36,9 +48,6 @@
     font-size: 1em;
     // margin-bottom: 0.2em;
     color: #fff;
-}
-.jumbotron a {
-    color: #B2DFDB;
 }
 
 .card{
