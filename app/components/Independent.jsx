@@ -46,14 +46,21 @@ var Independent = () => {
         <section className="topBottomLargeMargins">
           <div className="container">
                 <div className="appDescriptionBody">
-                  <div className="col-sm-8"><Image src={require('../images/independentsubs_devices.jpg')} className="width100"/>
-                  </div>
                   <div className="col-sm-4">
                     <h2>UI Design</h2>
-                      <p>A clear and simple to understand card is used to communicate the subscription options available, with anchor links in the lower sections that return the user to these options.</p>
-              </div>
+                      <p>A clear and simple to understand card is used to communicate the subscription options available, with user testimonies used to back up the unique proposition offered by the app.</p>
+                  </div>
+                  <div className="col-sm-4"><Image src={require('../images/IND_card1.jpg')} className="width100"/></div>
+                  <div className="col-sm-4"><Image src={require('../images/IND_card2.jpg')} className="width100"/></div>
                 </div>
               </div>
+        </section>
+        <section>
+          <div className="container">
+                  <div className="col-sm-12">
+                    <Image src={require('../images/IND_device.jpg')} className="width100"/>
+                  </div>
+                </div>
         </section>
         </div>
           );
