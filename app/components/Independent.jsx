@@ -31,14 +31,14 @@ var Independent = () => {
                 </div>
             </div>
         </section>
-        <section className="topBottomLargeMargins">
+        <section className="topBottomLargeMargins writersSection">
           <div className="container">
                 <div className="appDescriptionBody">
                     <div className="col-sm-4">
                       <h2>Design Concept</h2>
-                        <p>To emphasise the content that is to be found in the app I used dramatic looking imagery in the header. The copy and imagery focus on communicating the contributers and content to be found in the app.</p>
+                        <p>I tried to capture the understated classicism of The Independent print product in the design language for this page. Many of the users of The Indepenent Daily Edition app have been loyal subscribers for years and in some cases decades. I wanted to retain their brand recognition by using elements of the print design, while incorporating the motifs of modern web design.</p>
                 </div>
-                  <div className="col-sm-8"><Image src={require('../images/independentsubs_interface.jpg')} className="width100"/>
+                  <div className="col-sm-8"><Image src={require('../images/IND_writers.jpg')} className="width100"/>
                   </div>
                 </div>
               </div>
