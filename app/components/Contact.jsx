@@ -63,7 +63,7 @@ var Contact = React.createClass({
                 <fieldset>
                   <div id="contactForm">
                         <h2 className="section_header"><strong>Send me a message</strong></h2>
-                        <p>Please get in touch if you'd like to talk about how we can work together to make your project awesome.</p>
+                        <p>Please use the form below if you'd like to get in contact, or send me an email to <a href="mailto:danielwpape+portfolio@gmail.com">danielwpape@gmail.com</a>.</p>
                         <div className="form-group topMarginSmall">
                             <div className="col-sm-6 inputGroupContainer">
                                 <div className="input-group width100">
