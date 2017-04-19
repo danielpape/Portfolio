@@ -36,6 +36,7 @@ module.exports = {
       FrontpageWork : 'app/components/FrontpageWork.jsx',
       Marque : 'app/components/Marque.jsx',
       Contact : 'app/components/Contact.jsx',
+      About : 'app/components/About.jsx',
       Footer : 'app/components/Footer.jsx',
       Home: 'app/components/Home.jsx',
       Eve: 'app/components/Eve.jsx',

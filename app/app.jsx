@@ -7,6 +7,7 @@ var Eve = require('Eve');
 var Independent = require('Independent');
 var Home = require('Home');
 var EveningStandard = require('EveningStandard');
+var About = require('About');
 // App css
 require('style!css!sass!applicationStyles')
 
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="eve" component={Eve}/>
         <Route path="independent" component={Independent}/>
         <Route path="eveningstandard" component={EveningStandard}/>
+        <Route path="about" component={About}/>
         <IndexRoute component={Home}/>
     </Route>
 </Router>, document.getElementById('app'));
