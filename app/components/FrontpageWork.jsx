@@ -1,4 +1,5 @@
 var React = require('react');
+import {Image} from 'react-bootstrap';
 var {Link, IndexLink} = require('react-router');
 
 var FrontpageWork = () => {
@@ -11,6 +12,7 @@ var FrontpageWork = () => {
                         <h2 className="section_header">Here's some of my work</h2>
                     </div>
                     <div className="col-sm-4">
+                      <Image src={require('../images/frontpage_indy.png')} className="frontpageImage"/>
                         <div className="appTile"><h3><Link to={'/independent'}>The Independent</Link></h3></div>
                     </div>
                     <div className="col-sm-4">
