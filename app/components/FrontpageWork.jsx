@@ -5,7 +5,7 @@ var {Link, IndexLink} = require('react-router');
 var FrontpageWork = () => {
     return (
       <div>
-        <section className="topBottomMargins">
+        <section className="topBottomMargins greyBack">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12">
