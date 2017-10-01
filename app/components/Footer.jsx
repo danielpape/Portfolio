@@ -7,7 +7,7 @@ var Footer = () => {
             <div className="row">
                 <div className="col-sm-12">
                     <div className="col-sm-6">
-                        <p>&copy; Daniel Pape 2016</p>
+                        <p>&copy; Daniel Pape 2017</p>
                         <p><a href="https://www.twitter.com/danielpape" target="_blank">Twitter</a></p>
                         <p><a href="https://www.github.com/danielpape" target="_blank">GitHub</a></p>
                         <p><a href="https://www.appstore.com/danielpape" target="_blank">App Store</a></p>

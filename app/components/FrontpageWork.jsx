@@ -4,28 +4,57 @@ var {Link, IndexLink} = require('react-router');
 
 var FrontpageWork = () => {
     return (
-      <div>
-        <section className="topBottomMargins greyBack">
-            <div className="container">
-                <div className="row">
-                    <div className="col-sm-12">
-                        <h2 className="section_header">Here's some of my work</h2>
-                    </div>
-                    <div className="col-sm-4">
-                      <Image src={require('../images/frontpage_indy.png')} className="frontpageImage"/>
-                        <div className="appTile"><h3><Link to={'/independent'}>The Independent</Link></h3></div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="appTile"><h3><Link to={'/EveningStandard'}>London Evening Standard</Link></h3></div>
-                    </div>
-                    <div className="col-sm-4">
-                        <div className="appTile"><h3><Link to={'/eve'}>Eve Alarm</Link></h3></div>
+        <div>
+            <section className="topBottomMargins greyBack">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <div className="appTile">
+                                <div className="colourFlashIndependent"></div>
+                                <p className="appTileTag">Client</p>
+                                <h2>
+                                    <Link to={'/independent'}>The Independent</Link>
+                                </h2>
+                                <p className="appTileTag">Project</p>
+                                <h3>
+                                    Subscriptions Page
+                                </h3>
+                                <button>View Project</button>
+                            </div>
+                        </div>
+                        <div className="col-sm-4">
+                            <div className="appTile">
+                                <div className="colourFlashStandard"></div>
+                                <p className="appTileTag">Client</p>
+                                <h2>
+                                    <Link to={'/EveningStandard'}>Evening Standard</Link>
+                                </h2>
+                                <p className="appTileTag">Project</p>
+                                <h3>
+                                    2017 Site Redesign
+                                </h3>
+                                <button>View Project</button>
+                            </div>
+                        </div>
+                        <div className="col-sm-4">
+                            <div className="appTile">
+                                <div className="colourFlashNewsletter"></div>
+                                <p className="appTileTag">Client</p>
+                                <h2>
+                                    <Link to={'/eve'}>Evening Standard</Link>
+                                </h2>
+                                <p className="appTileTag">Project</p>
+                                <h3>
+                                    Email Sign Up Form
+                                </h3>
+                                <button>View Project</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
-          );
+    );
 };
 
 module.exports = FrontpageWork;
