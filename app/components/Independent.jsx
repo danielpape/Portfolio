@@ -21,11 +21,10 @@ var Independent = () => {
         <section className="topBottomMargins">
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-12">
+                    <div className="col-sm-6">
                       <div className="appDescriptionBody">
-                        <h2>Idea</h2>
-                        <blockquote>The Independent Daily Edition is not an app, it is a collection of topical knowledge from trusted sources.</blockquote>
-                        <p>This was the idea that formed the backbone of the Independent Daily Edition subscriptons page. Previously we had always marketed The Independent Daily Edition with images of the app on devices, but it became apparent that this strategy was wrong. Subscribers are buying into the content contained within the app from trusted reporters, something that isn't available anywhere else. In the run up to Christmas 2016 I worked as the product designer for The Independent Daily Edition's subscription page.</p>
+                        <h2>Challenge</h2>
+                        <p>The main challenge I found when designing <em>The Independent</em> subscriptions site was that testing indicated users were unable to differentiate between the core Independent products: The Daily Edition app, the printed newspaper and independent.co.uk.</p>
                   </div>
                     </div>
                 </div>
@@ -35,8 +34,8 @@ var Independent = () => {
           <div className="container">
                 <div className="appDescriptionBody">
                     <div className="col-sm-4">
-                      <h2>Design Concept</h2>
-                        <p>I tried to capture the understated classicism of The Independent print product in the design language for this page. Many of the users of The Indepenent Daily Edition app have been loyal subscribers for years and in some cases decades. I wanted to retain their brand recognition by using elements of the print design, while incorporating the motifs of modern web design.</p>
+                      <h2>Solution</h2>
+                        <p>The Independent Daily Edition contains all of the same writers, features and extras that were available previously in the printed newspaper, but with the enhancements that a digital product can offer. To communicate this to users I made the decision to retain the visual motifs of the newspaper, but chose to update them with web visual language such as a card based interface, depth of field, and dark background colours.</p>
                 </div>
                   <div className="col-sm-8"><Image src={require('../images/IND_writers.jpg')} className="width100"/>
                   </div>
@@ -47,8 +46,19 @@ var Independent = () => {
           <div className="container">
                 <div className="appDescriptionBody">
                   <div className="col-sm-4">
-                    <h2>UI Design</h2>
-                      <p>A clear and simple to understand card is used to communicate the subscription options available, with user testimonies used to back up the unique proposition offered by the app.</p>
+                      <p>I placed an emphasis on retaining the motifs of the print newspaper because the target audience were those people who had previously read the print product. I also included positive user testimonials to reaffirm the benefits of the app to potential users.</p>
+                  </div>
+                  <div className="col-sm-4"><Image src={require('../images/IND_card1.jpg')} className="width100"/></div>
+                  <div className="col-sm-4"><Image src={require('../images/IND_card2.jpg')} className="width100"/></div>
+                </div>
+              </div>
+        </section>
+        <section className="topBottomLargeMargins">
+          <div className="container">
+                <div className="appDescriptionBody">
+                  <div className="col-sm-4">
+                    <h2>Outcome</h2>
+                      <p>The site performed well with users clearer on the features of the product, which led to an improvement in key metrics such as conversion and bounce rate.</p>
                   </div>
                   <div className="col-sm-4"><Image src={require('../images/IND_card1.jpg')} className="width100"/></div>
                   <div className="col-sm-4"><Image src={require('../images/IND_card2.jpg')} className="width100"/></div>
