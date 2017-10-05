@@ -23,7 +23,7 @@ var FrontpageWork = () => {
                             </div>
                         </div>
                         <div className="col-sm-4">
-                            <div className="appTile">
+                            <Link to={'/EveningStandard'}><div className="appTile">
                                 <div className="colourFlashStandard"></div>
                                 <p className="appTileTag">Client</p>
                                 <h2>
@@ -34,7 +34,7 @@ var FrontpageWork = () => {
                                     2017 Site Redesign
                                 </h3>
                                 <button>View Project</button>
-                            </div>
+                            </div></Link>
                         </div>
                         <div className="col-sm-4">
                             <div className="appTile">

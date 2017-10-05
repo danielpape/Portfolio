@@ -7,7 +7,7 @@ var Jumbotron = React.createClass({
         return (
             <div className="jumbotron">
                 <div className="container">
-                    <div className="col-sm-9">
+                    <div className="col-sm-8">
                         <h1>I am a product designer specialising in user interface design, idea generation & iOS development.</h1>
                     </div>
                 </div>
