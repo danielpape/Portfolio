@@ -4,27 +4,27 @@ import {Image} from 'react-bootstrap';
 var EveningStandard = () => {
     return (
         <div>
-            <section className="appsSplash standardBG">
+            <section className="topBottomMargins">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-sm-8 col-sm-offset-2">
-                            <h1>London Evening Standard</h1>
+                    <div className="col-sm-4 col-sm-offset-2 appsSplash">
+                        <Image src={require('../images/IND_writers.jpg')} className="width100 innerCorners"/>
+                        <div className="2remMargins">
+                            <h1>Evening Standard</h1>
                             <p className="topMarginSmall">
-                              <strong>Project:</strong> 2017 Site Design</p>
-                              <p>
-                                <strong>Role:</strong> Lead Designer</p>
+                                <strong>Project:</strong>
+                                2017 Site Design</p>
                             <p>
-                                <strong>Link:</strong> <a href="https://standard.co.uk">standard.co.uk</a>
+                                <strong>Role:</strong>
+                                Lead Designer</p>
+                            <p>
+                                <strong>Link:</strong>
+                                <a href="https://standard.co.uk">standard.co.uk</a>
                             </p>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section className="topBottomMargins">
-                <div className="container">
-                        <div className="col-sm-8 col-sm-offset-2">
-                            <p>The London Evening Standard has been published since 1827 and has constantly adapted to stay relevant in the publishing industry. In 2017 the standard.co.uk underwent a replatforming where I was lead designer.</p>
-                        </div>
+                    <div className="col-sm-4">
+                        <p>The London Evening Standard has been published since 1827 and has constantly adapted to stay relevant in the publishing industry. In 2017 the standard.co.uk underwent a replatforming where I was lead designer.</p>
+                    </div>
                 </div>
             </section>
             <section className="topBottomMargins">
@@ -32,6 +32,11 @@ var EveningStandard = () => {
                     <div className="col-sm-8 col-sm-offset-2">
                         <p>The main focus os the redesign was a change in tone of voice from reporting mainly on crime & politics to a more lifestyle and celebrity focused output. I used this change of tone to work with senior stakeholders on a 3 month project that launched in October 2017.</p>
                     </div>
+                </div>
+            </section>
+            <section>
+                <div className="col-sm-12 noPadding">
+                    <Image src={require('../images/IND_writers.jpg')} className="width100"/>
                 </div>
             </section>
             <section className="topBottomMargins">
