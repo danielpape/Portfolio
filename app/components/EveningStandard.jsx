@@ -4,34 +4,27 @@ import {Image} from 'react-bootstrap';
 var EveningStandard = () => {
     return (
         <div>
-            <section className="topBottomMargins">
+            <section className="topBottomLargeMargins">
                 <div className="container">
-                    <div className="col-sm-4 col-sm-offset-2 appsSplash">
-                        <Image src={require('../images/IND_writers.jpg')} className="width100 innerCorners"/>
+                    <div className="col-sm-4 col-sm-offset-1 appsSplash">
+                        <Image src={require('../images/ES_icon.png')} className="width16rem innerCorners"/>
                         <div className="2remMargins">
                             <h1>Evening Standard</h1>
                             <p className="topMarginSmall">
-                                <strong>Project:</strong>
-                                2017 Site Design</p>
+                                <strong>Project:</strong> 2017 Site Design</p>
                             <p>
-                                <strong>Role:</strong>
-                                Lead Designer</p>
+                                <strong>Role:</strong> Lead Designer</p>
                             <p>
-                                <strong>Link:</strong>
-                                <a href="https://standard.co.uk">standard.co.uk</a>
+                                <strong>Link:</strong> <a href="https://standard.co.uk">standard.co.uk</a>
                             </p>
                         </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-5">
+                      <p className="1remBottomMargin"><strong className="1remBottomMargin">INTRO</strong></p>
                         <p>The London Evening Standard has been published since 1827 and has constantly adapted to stay relevant in the publishing industry. In 2017 the standard.co.uk underwent a replatforming where I was lead designer.</p>
-                    </div>
-                </div>
-            </section>
-            <section className="topBottomMargins">
-                <div className="container">
-                    <div className="col-sm-8 col-sm-offset-2">
-                        <p>The main focus os the redesign was a change in tone of voice from reporting mainly on crime & politics to a more lifestyle and celebrity focused output. I used this change of tone to work with senior stakeholders on a 3 month project that launched in October 2017.</p>
-                    </div>
+                        <p className="topMargin"><strong className="1remBottomMargin">THE BRIEF</strong></p>
+                        <p>The main focus of the redesign was a change in tone of voice from reporting mainly on crime & politics to a more lifestyle and celebrity focused output. I used this change of tone to work with senior stakeholders on a 3 month project that launched in October 2017.</p>
+                  </div>
                 </div>
             </section>
             <section>

@@ -54,10 +54,6 @@ p {
     padding-bottom: 2em;
 }
 
-.topMargin {
-    padding-top: 3em;
-}
-
 .topBottomLargeMargins {
     padding-top: 12rem;
     padding-bottom: 12rem;
@@ -91,7 +87,7 @@ p {
 }
 
 .topMargin {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .topMarginSmall {
@@ -110,12 +106,12 @@ p {
     width: 100%;
 }
 
-.2remMargins{
-  margin: 2rem;
+.width16rem{
+  width: 8rem;
 }
 
 .innerCorners {
-  border-radius: 2rem 2rem 0 0;
+  border-radius: 2rem;
 }
 
 .width30 {
@@ -150,8 +146,8 @@ p {
     }
 
     .topBottomLargeMargins {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 0px;
+        padding-bottom: 2rem;
     }
 
     .jumbotron {
