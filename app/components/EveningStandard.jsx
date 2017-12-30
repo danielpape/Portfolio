@@ -4,7 +4,7 @@ import {Image} from 'react-bootstrap';
 var EveningStandard = () => {
     return (
         <div>
-            <section className="topBottomLargeMargins">
+            <section>
                 <div className="container">
                     <div className="col-sm-4 col-sm-offset-1 appsSplash">
                         <Image src={require('../images/ES_icon.png')} className="width16rem innerCorners"/>

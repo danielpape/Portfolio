@@ -1,22 +1,31 @@
 .jumbotron {
     background: #FFFFFF;
-    color: #263238;
+    color: white;
     margin-bottom: 0px;
     margin-top: 0px;
+    padding-top: 24px;
 
     h1{
-      font-size: 40px;
+      font-size: 32px;
       margin-bottom: 24px;
       font-family: $Roboto;
-      font-weight: 500;
+      color: white;
+      font-weight: bold;
+      margin-top: 8px;
     }
 
     h2 {
-      font-size: 24px;
+      font-size: 20px;
       line-height: 36px;
       font-weight: normal;
       font-family: $Roboto;
-      color: #424242;
+      color: #434343;
+    }
+
+    p {
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 0px;
     }
 
     a {
@@ -29,6 +38,19 @@
        color:#424242;
      }
 
+}
+
+.topcard{
+      background-color: #eeeeee;
+      border-radius: 32px 32px 0px 0px;
+      padding: 32px;
+      float:none;
+      margin: 0 16px;
+      width: auto;
+      background: -webkit-linear-gradient(0deg, #ffffff , $site-color); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(0deg, #ffffff, $site-color); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(0deg, #ffffff, $site-color); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(0deg, #ffffff , $site-color); /* Standard syntax */
 }
 .independent {
     color: $indy-red;

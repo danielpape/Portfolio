@@ -8,7 +8,7 @@ var Home = (props) => {
   return(
     <div>
       <Jumbotron/>
-      <FrontpageWork/>
+      <EveningStandard/>
     </div>
   );
 };
