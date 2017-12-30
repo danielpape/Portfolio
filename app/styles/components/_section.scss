@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+.FourRemBottomMargin {
+  margin-bottom: 4rem;
+}
+
 .centered {
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +19,13 @@ html {
   overflow-x: hidden;
 }
 p {
-  margin-bottom: 2px;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+.standardBackground {
+  background-color: lightyellow;
 }
 
 .container {
@@ -59,9 +69,11 @@ p {
     padding-bottom: 2em;
 }
 
-.topBottomLargeMargins {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+.topBottomLargeMarginsAndPadding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .noBottomMargin {
