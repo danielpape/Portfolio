@@ -7,10 +7,12 @@ var Jumbotron = React.createClass({
         return (
             <div className="jumbotron">
                 <div className="container">
-                    <div className="col-sm-6 topcard">
-                      <p>Hello, I am</p>
-                      <h1>Daniel Pape</h1>
-                        <h2>I am a product designer specialising in user interface design, idea generation & iOS development.</h2>
+                    <div className="topcard">
+                        <div className="col-sm-6">
+                            <p>Hello, I am</p>
+                            <h1>Daniel Pape</h1>
+                            <h2>I am a product designer specialising in user interface design, idea generation & iOS development. I would like to show you three pieces of work I am proud of.</h2>
+                        </div>
                     </div>
                 </div>
             </div>
